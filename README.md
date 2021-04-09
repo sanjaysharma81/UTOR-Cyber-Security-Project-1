@@ -3,7 +3,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-(Images/Elk Project Diagram.png)
+![https://github.com/sanjaysharma81/UTOR-Cyber-Security-Project-13/blob/main/Diagrams/Elk%20Project%20Network%20Diagram.png](Diagrams/Elk Project Network Diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML files may be used to install only certain pieces of it, such as Filebeat.
 
@@ -86,3 +86,4 @@ SSH into the control node and follow the steps below:
 - Copy the filebeat-playbook.yml and metricbeat-playbook.ym file to the ~/etc/ansible directory.
 - Update the hosts file to include your machine's IP address. You will also update the playbook files in accordance with the hosts file to specify which machine to install each playbook on
 - Run the playbook, and navigate to the VM which ELK is deployed on to check that the installation worked as expected. You will also navigate to the following URL using the IP of which ELK is deployed, under port 5601: http://[your.ELK-VM.External.IP]:5601/app/kibana.
+
